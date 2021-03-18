@@ -1,0 +1,13 @@
+.imgGrey {
+  /* 让图片变成灰色 */
+  -webkit-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray;
+}
+
+html,body, #app {
+  height: 100%;
+}

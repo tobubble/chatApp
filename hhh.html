@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    img {
+      height: 100%;
+      /* width: auto; */
+      left: 50%;
+      position: relative;
+      transform: translateX(-50%);
+    }
+
+    .cover {
+      margin: 100px auto;
+      width: 400px;
+      height: 400px;
+      overflow: hidden;
+      border: 1px solid cornflowerblue;
+      position: relative;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="a cover">
+    <img src="http://127.0.0.1:3000/images/4a405fb06d6d72aa1739ccaa699059a1.jpeg" alt="">
+  </div>
+  <textarea class="textarea"></textarea>
+  <script>
+    const aaa = document.querySelector('.a')
+    const bbb = document.querySelector('.b')
+    const text = document.querySelector('.textarea')
+    text.onkeydown = function(e,e2) {
+      e.preventDefault()
+    }
+  </script>
+</body>
+
+</html>
